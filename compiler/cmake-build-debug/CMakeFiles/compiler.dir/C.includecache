@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mac/CLionProjects/compiler/global.h
+stdio.h
+-
+stdlib.h
+-
+ctype.h
+-
+string.h
+-
+
+/Users/mac/CLionProjects/compiler/main.c
+global.h
+/Users/mac/CLionProjects/compiler/global.h
+util.h
+/Users/mac/CLionProjects/compiler/util.h
+scan.h
+/Users/mac/CLionProjects/compiler/scan.h
+parse.h
+/Users/mac/CLionProjects/compiler/parse.h
+analyze.h
+/Users/mac/CLionProjects/compiler/analyze.h
+cgen.h
+/Users/mac/CLionProjects/compiler/cgen.h
+
+/Users/mac/CLionProjects/compiler/parse.h
+global.h
+/Users/mac/CLionProjects/compiler/global.h
+
+/Users/mac/CLionProjects/compiler/scan.h
+global.h
+/Users/mac/CLionProjects/compiler/global.h
+
+/Users/mac/CLionProjects/compiler/util.h
+global.h
+/Users/mac/CLionProjects/compiler/global.h
+

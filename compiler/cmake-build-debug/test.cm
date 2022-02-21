@@ -1,0 +1,21 @@
+/* Sample Program in C- language*/
+int ComputeFactorial(int n)
+{
+    int i;
+    int product;
+    product=1;
+    if(n>=1)
+    {
+        while(n>=1)
+        {
+            product=product*n;
+            n=n-1;
+        }
+        return product;
+    }
+    else
+    {
+        return -1;
+
+    }
+}
